@@ -1,0 +1,278 @@
+body {
+    background-color: #F3F3F3;
+    font-family: 'Assistant', sans-serif;
+    color: #071C4D;
+}
+
+header {
+    margin-top: -68px;
+    padding: 180px 0 165px;
+    background-image: url("../images/header-background.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+header h2 {
+    font-size: 24px;
+}
+
+.section-club-stats {
+    margin-top: -50px;
+}
+
+.section-club-stats .stats-detail {
+    padding-top: 15px;
+    background: #fff;
+    padding-left: 40px;
+}
+
+.section-club-stats h2 {
+    font-size: 22px;
+    margin-top: 20px;
+    margin-bottom: 0;
+}
+
+.section-club-stats p {
+    font-size: 14px;
+    font-weight: lighter;
+    margin-bottom: 20px;
+}
+
+.section-match-stats {
+    margin-top: -200px;
+}
+
+.section-match-stats .stats-match-detail {
+    padding: 30px !important;
+    background: #fff;
+}
+
+.section-match-stats h2 {
+    font-size: 24px;
+    font-weight: 600;
+    margin: 0;
+    color: #071c4d;
+}
+
+.section-match-stats h3 {
+    font-size: 20px;
+    margin-top: 40px;
+    margin-bottom: 10px;
+}
+
+.section-match-stats p {
+    font-size: 14px;
+    font-weight: lighter;
+    margin-top: 10px;
+    margin-bottom: 0;
+}
+
+.section-match-stats .card-content p.secondary-content {
+    margin: 0;
+    color: #071C4D;
+}
+
+.section-squads {
+    min-height: 540px;
+    background: #051334;
+    margin-top: -70px;
+    margin-bottom: -230px;
+}
+
+.section-squads .section-squads-heading {
+    margin-top: 100px;
+}
+
+.section-squads .section-squads-heading h2,
+.section-squads .section-squads-heading p {
+    color: #fff;
+}
+
+.section-squads-content .section-squads-data .card-squad {
+    min-height: 380px;
+    width: 100%;
+    background: #fff;
+    color: #fff;
+    padding: 30px;
+    background-size: cover;
+    background-position: center;
+    margin-bottom: 20px;
+}
+
+.section-squads-content .section-squads-data .card-squad .squad-stats {
+    margin-top: 300px;
+}
+
+.section-squads-content .section-squads-data .card-squad .squad-number {
+    font-size: 32px;
+    color: #000;
+    margin-right: 10px;
+    padding-right: 10px;
+    border-right: #000 solid 1px;
+}
+
+.section-squads-content .section-squads-data .card-squad .squad-name {
+    font-size: 18px;
+    font-weight: 700;
+    color: #000;
+}
+
+.section-squads-content .section-squads-data .card-squad .squad-position {
+    font-size: 16px;
+    color: #000;
+}
+
+.section-squads-content .section-squads-data .card-squad .coach-name {
+    font-size: 22px;
+    color: #fff;
+}
+
+.section-squads-content .section-squads-data .card-squad .coach-position {
+    font-size: 14px;
+    color: #fff;
+}
+
+.section-team-info {
+    background: -webkit-gradient(linear, left top, left bottom, from(#f3f3f3), to(#fff));
+    background: linear-gradient(#f3f3f3 0%, #fff 100%);
+    margin-top: -170px;
+    padding-top: 240px;
+    padding-bottom: 50px;
+}
+
+.section-team-info img.club-logo {
+    max-width: 100px;
+}
+
+.section-active-competitions {
+    background: -webkit-gradient(linear, left top, left bottom, from(#fff), to(#f7f9ff));
+    background: linear-gradient(#fff 0%, #f7f9ff 100%);
+    padding-top: 50px;
+    min-height: 506px;
+}
+
+.section-match {
+    min-height: 540px;
+    background: #f3f3f3;
+    margin-top: -70px;
+    margin-bottom: -230px;
+}
+
+.section-match .section-match-heading {
+    margin-top: 100px;
+}
+
+.section-match .section-match-heading h2,
+.section-match .section-match-heading p {
+    color: #071c4d;
+}
+
+.section-match-data #no-data p {
+    font-size: 18px;
+    margin: 0;
+}
+
+.section-match-content .section-match-data .card-match {
+    min-height: 100px;
+    width: 100%;
+    background: #fff;
+    color: #fff;
+    padding: 20px;
+    background-size: cover;
+    background-position: center;
+    margin-bottom: 20px;
+}
+
+.section-match-content .section-match-data .card-match h4 {
+    font-size: 20px;
+    font-weight: 600;
+    margin: 0;
+    padding-left: 20px;
+    color: #071c4d;
+}
+
+.section-match-content .section-match-data .card-match p {
+    margin: 0;
+    padding-left: 20px;
+}
+
+.section-match-content .section-match-data .card-match p.secondary-content {
+    margin: 0;
+    color: #071C4D;
+}
+
+.section-match-content .section-match-data .card-match ul.collection {
+    border: none;
+}
+
+.section-match-content .section-match-data .card-match.collection .collection.item {
+    line-height: 3rem !important;
+}
+
+.section-match-content .section-match-data .card-match img.team-logo {
+    width: 30px;
+}
+
+@media only screen and (min-width: 993px) {
+    #team-info-table table.responsive-table {
+        width: 100%;
+        border-collapse: collapse;
+        border-spacing: 0;
+        display: block;
+        position: relative;
+        /* sort out borders */
+    }
+    #team-info-table table.responsive-table td:empty:before {
+        content: '\00a0';
+    }
+    #team-info-table table.responsive-table th,
+    #team-info-table table.responsive-table td {
+        margin: 0;
+        vertical-align: top;
+        border-bottom: 1px solid rgba(0, 0, 0, 0.12);
+    }
+    #team-info-table table.responsive-table th {
+        text-align: left;
+    }
+    #team-info-table table.responsive-table thead {
+        display: block;
+        float: left;
+        width: 50%;
+    }
+    #team-info-table table.responsive-table thead tr {
+        display: block;
+        padding: 0;
+    }
+    #team-info-table table.responsive-table thead tr th::before {
+        content: "\00a0";
+    }
+    #team-info-table table.responsive-table tbody {
+        display: block;
+        width: auto;
+        position: relative;
+        overflow-x: auto;
+        white-space: nowrap;
+    }
+    #team-info-table table.responsive-table tbody tr {
+        display: inline-block;
+        vertical-align: top;
+        padding: 0;
+    }
+    #team-info-table table.responsive-table th {
+        display: block;
+        text-align: left;
+    }
+    #team-info-table table.responsive-table td {
+        display: block;
+        min-height: 1.25em;
+        text-align: right;
+    }
+    #team-info-table table.responsive-table tr {
+        border-bottom: none;
+        padding: 0 10px;
+    }
+    #team-info-table table.responsive-table thead,
+    #team-info-table table.responsive-table tbody {
+        border: 0;
+    }
+}

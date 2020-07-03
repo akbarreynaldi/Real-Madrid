@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <title>Match Detail</title>
+    <meta name="description" content="Real Madrid - Live Score, Standings, Team Info" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="src/css/main.css">
+    <link rel="stylesheet" href="src/css/materialize.min.css">
+    <link rel="stylesheet" href="src/css/font.css">
+    <link rel="manifest" href="/manifest.json">
+    <meta name="theme-color" content="#141e30" />
+
+    <!-- ios support -->
+    <meta name="mobile-web-app-capable" content="yes" />
+    <meta name="apple-touch-fullscreen" content="yes" />
+    <meta name="apple-mobile-web-app-title" content="Expo" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="default">
+    <link rel="apple-touch-icon" sizes="512x512" href="/apple-touch-icon.png">
+    <link rel="apple-touch-startup-image" href="/src/images/splash/launch-640x1136.png" media="(device-width: 320px) and (device-height: 568px) and (-webkit-device-pixel-ratio: 2) and (orientation: portrait)">
+    <link rel="apple-touch-startup-image" href="/src/images/splash/launch-750x1294.png" media="(device-width: 375px) and (device-height: 667px) and (-webkit-device-pixel-ratio: 2) and (orientation: portrait)">
+    <link rel="apple-touch-startup-image" href="/src/images/splash/launch-1242x2148.png" media="(device-width: 414px) and (device-height: 736px) and (-webkit-device-pixel-ratio: 3) and (orientation: portrait)">
+    <link rel="apple-touch-startup-image" href="/src/images/splash/launch-1125x2436.png" media="(device-width: 375px) and (device-height: 812px) and (-webkit-device-pixel-ratio: 3) and (orientation: portrait)">
+    <link rel="apple-touch-startup-image" href="/src/images/splash/launch-1536x2048.png" media="(min-device-width: 768px) and (max-device-width: 1024px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: portrait)">
+    <link rel="apple-touch-startup-image" href="/src/images/splash/launch-1668x2224.png" media="(min-device-width: 834px) and (max-device-width: 834px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: portrait)">
+    <link rel="apple-touch-startup-image" href="/src/images/splash/launch-2048x2732.png" media="(min-device-width: 1024px) and (max-device-width: 1024px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: portrait)">
+</head>
+
+<body>
+    <!-- Navigasi -->
+    <nav role="navigation">
+        <div class="nav-wrapper container">
+            <a href="./index.html" class="brand-logo" id="logo-container">Real Madrid</a>
+            <a href="./index.html#match" class="sidenav-trigger" data-target="nav-mobile">
+                <i class="material-icons">arrow_back</i>
+            </a>
+            <ul class="topnav right hide-on-med-and-down">
+                <li>
+                    <a href="./index.html#match" class="waves-effect" id="backToMatch">&#8592; Back to match data</a>
+                </li>
+                <li>
+                    <a href="./index.html#saved" class="waves-effect" id="backToSaved">&#8592; Back to match data</a>
+                </li>
+            </ul>
+            <ul class="sidenav" id="nav-mobile"></ul>
+        </div>
+    </nav>
+    <!-- Header Jumbotron Background-->
+    <header class="left-align">
+        <div class="container">
+        </div>
+    </header>
+    <!-- Akhir Navigasi -->
+    <div id="body-content">
+        <div class="container">
+            <section class="section-match-stats row center" id="match-details">
+
+            </section>
+        </div>
+    </div>
+    <!-- floating action button -->
+    <div class="fixed-action-btn">
+        <a class="btn-floating btn-large waves-effect blue" id="save">
+            <i class="large material-icons">bookmark</i>
+        </a>
+    </div>
+    <div class="fixed-action-btn">
+        <a class="btn-floating btn-large waves-effect blue" id="remove">
+            <i class="large material-icons">delete</i>
+        </a>
+    </div>
+    <script src="src/js/library/materialize.min.js"></script>
+    <script src="src/js/main.js"></script>
+    <script src="src/js/handler/matchDetailHandler.js" type="module"></script>
+</body>
+
+</html>

@@ -1,0 +1,85 @@
+<main>
+    <div class="container">
+        <section class="section-club-stats row center" id="stats">
+            <div class="col s3 m3 l3 stats-detail center-align">
+                <h2>13 🏆</h2>
+                <p class="flow-text truncate">European Cups</p>
+            </div>
+            <div class="col s3 stats-detail center-align">
+                <h2>7 🏆</h2>
+                <p class="flow-text truncate">FIFA Club World Cups</p>
+            </div>
+            <div class="col s3 stats-detail center-align">
+                <h2>33 🏆</h2>
+                <p class="flow-text truncate">National Leagues</p>
+            </div>
+            <div class="col s3 stats-detail center-align">
+                <h2>19 🏆</h2>
+                <p class="flow-text truncate">Spanish Cups</p>
+            </div>
+        </section>
+    </div>
+    <section class="section-squads" id="squads">
+        <div class="container">
+            <div class="row">
+                <div class="col s12 center-align section-squads-heading">
+                    <h2>Squad</h2>
+                </div>
+                <player-list></player-list>
+            </div>
+        </div>
+    </section>
+    <section class="section-squads-content" id="squadsContent">
+        <div class="container">
+            <div class="section-squads-data row" id="squad-data">
+                <div class="col s6 m4 l3">
+                    <div class="card-squad" style="background-image: url('../src/images/GK.jpg');">
+                        <div class="squad-stats">
+                            <div class="squad-number left left-align">1</div>
+                            <div class="squad-name left-align">Alphonse Aréola</div>
+                            <div class="squad-position left-align">Goalkeeper</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="section-team-info" id="team-info-table">
+        <div class="container">
+            <div class="row">
+                <div class="col m4">
+                    <h2>Team Info</h2>
+                    <img src="../src/images/Real_Madrid_Logo.png" class="club-logo" alt="Real Madrid Logo">
+                </div>
+                <div class="col s12 m6" id="team-data">
+
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="section-active-competitions">
+        <div class="container">
+            <div class="row">
+                <div class="col m4">
+                    <h2>Active Competitions</h2>
+                </div>
+                <div class="col s12 m6">
+                    <div class="card">
+                        <div class="card-content black-text">
+                            <table class="responsive-table highlight" id="active-competitions">
+                                <thead>
+                                    <tr>
+                                        <th>Competition Name</th>
+                                    </tr>
+                                </thead>
+                                <tbody id="competitions-list">
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+</main>
+<script src="main.js" type="module"></script>
